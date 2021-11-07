@@ -76,11 +76,15 @@ private struct Generator {
                     import XCTest
                     @testable import Symbols
                     
+                    #if os(macOS)
+                    
                     final class Symbols_\(lineCounter)_Tests: XCTestCase {
                         
                         @available(macOS 11.3, *)
                         func test() throws {\n\(tests)    }
                     }
+                    
+                    #endif
                     """
                     
                     try persist(string, directory: testDirectory,  filename: "Symbols+\(lineCounter)_Tests.swift")

@@ -1,9 +1,11 @@
-// Generated on 2021-11-06 18:35:11 +0000
+// Generated on 2021-11-07 06:49:46 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 import XCTest
 @testable import Symbols
+
+#if os(macOS)
 
 final class Symbols_2400_Tests: XCTestCase {
     
@@ -341,3 +343,5 @@ final class Symbols_2400_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playpauseFill, accessibilityDescription: nil))
     }
 }
+
+#endif
