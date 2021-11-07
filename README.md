@@ -93,3 +93,7 @@ Yep! But for one reason or another, they didn't fulfil my needs (as of 2021/11/0
 - [justMaku/Symbolic](https://github.com/justmaku/symbolic) - No updates since June 2019
 - [omeasraf/SFIcons ](https://github.com/omeasraf/SFIcons) - Swift package index shows build breaking with iOS
 
+## TODO
+
+- [ ] Show symbol in code completion
+
