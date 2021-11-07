@@ -22,7 +22,7 @@
 - 💫 Contains all SF Symbols - 1.0, 2.0, 2.1, 3.0.
 - 🏠 Supports all platforms: 📱 iOS, 💻 macOS, 📺 tvOS, ⌚️ watchOS.
 - 💯 100% Test Coverage, **every** SF Symbol String extension is tested.
-- 👷 Easy to maintain for future SF Symbol releases (see **Generation** section).
+- 👷 Easy to maintain for future SF Symbol releases (see **Maintenance** section).
 - ✅ Availability checks i.e. `@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)`.
 - 🧵 String extension which means you can use all the existing `UIImage`/`NSImage` initialisers.
 - 🔤 Camelcased allowing better code completion
@@ -42,7 +42,17 @@ UIImage(systemName: .Symbols._0CircleFill) // 0.circle.fill
 NSImage(systemSymbolName: .Symbols._0CircleFill, accessibilityDescription: nil) // 0.circle.fill
 ```
 
-## Generation
+## Installation
+
+### SPM
+
+Add the following to your project:
+
+```
+https://github.com/ptrkstr/Symbols
+```
+
+## Maintenance
 
 All terminal commands must be ran from the directory of this repo.
 
