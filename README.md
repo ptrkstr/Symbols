@@ -25,17 +25,21 @@
 - 👷 Easy to maintain for future SF Symbol releases (see **Generation** section).
 - ✅ Availability checks i.e. `@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)`.
 - 🧵 String extension which means you can use all the existing `UIImage`/`NSImage` initialisers.
+- 🔤 Camelcased allowing better code completion
 
 ## Usage
 
 ```swift
 import Symbols
 // Swift >= 5.5 
-UIImage(systemName: .Symbols.magazine)
-NSImage(systemSymbolName: .Symbols.magazine, accessibilityDescription: nil)
+UIImage(systemName: .Symbols.magazineFill) // magazine.fill
+NSImage(systemSymbolName: .Symbols.magazineFill, accessibilityDescription: nil) // magazine.fill
 // Swift < 5.5
-UIImage(systemName: String.Symbols.magazine)
-NSImage(systemSymbolName: String.Symbols.magazine, accessibilityDescription: nil)
+UIImage(systemName: String.Symbols.magazine) // magazine.fill
+NSImage(systemSymbolName: String.Symbols.magazine, accessibilityDescription: nil) // magazine.fill
+// Leading numbers prefixed with underscore
+UIImage(systemName: .Symbols._0CircleFill) // 0.circle.fill
+NSImage(systemSymbolName: .Symbols._0CircleFill, accessibilityDescription: nil) // 0.circle.fill
 ```
 
 ## Generation
@@ -45,7 +49,7 @@ All terminal commands must be ran from the directory of this repo.
 ### Update raw.txt
 
 1. Enter the following into terminal but don't press enter yet
-    
+   
     ```
     pbpaste > ./Generator/Sources/Generator/Resources/raw.txt
     ```
