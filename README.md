@@ -3,18 +3,22 @@
   <br>
   <br>
   <div>
-      <a href="https://swiftpackageindex.com/ptrkstr/Symbols"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FSymbols%2Fbadge%3Ftype%3Dplatforms"/></a>
-      <a href="https://swiftpackageindex.com/ptrkstr/Symbols"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FSymbols%2Fbadge%3Ftype%3Dswift-versions"/></a>
-      <br>
-      <a href="https://github.com/apple/swift-package-manager" alt="Symbols on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
-      <a href="https://github.com/ptrkstr/Symbols/actions/workflows/swift.yml"><img src="https://github.com/ptrkstr/Symbols/actions/workflows/Update Code Coverage.yml/badge.svg"/></a>
-      <a href="https://codecov.io/gh/ptrkstr/Symbols"><img src="https://codecov.io/gh/ptrkstr/Symbols/branch/develop/graph/badge.svg?token=wQR49d2DsA"/></a>
+      <p>
+          Swift Package Information<br>
+          <a href="https://swiftpackageindex.com/ptrkstr/Symbols"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FSymbols%2Fbadge%3Ftype%3Dplatforms"/></a>
+          <a href="https://swiftpackageindex.com/ptrkstr/Symbols"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FSymbols%2Fbadge%3Ftype%3Dswift-versions"/></a>
+      </p>
+      <p>
+          Code Coverage<br>
+          <a href="https://github.com/ptrkstr/Symbols/actions/workflows/swift.yml"><img src="https://github.com/ptrkstr/Symbols/actions/workflows/Update Code Coverage.yml/badge.svg"/></a>
+          <a href="https://codecov.io/gh/ptrkstr/Symbols"><img src="https://codecov.io/gh/ptrkstr/Symbols/branch/develop/graph/badge.svg?token=wQR49d2DsA"/></a>          
+      </p>
   </div>
-    <br>
   <p>
     Swift package for accessing SF Symbols in a type safe manner.
   </p>
 </div>
+
 
 
 ## Features
