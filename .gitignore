@@ -1,7 +1,11 @@
 .DS_Store
 /.build
+/Generator/.build
 /Packages
+/Generator/Packages
 /*.xcodeproj
+/Generator/*.xcodeproj
 xcuserdata/
 DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+/Generator/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata

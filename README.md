@@ -76,6 +76,12 @@ All terminal commands must be ran from the directory of this repo.
 yes | cp /Applications/SF\ Symbols.app/Contents/Resources/name_availability.plist ./Generator/Sources/Generator/Resources
 ```
 
+### Generate
+
+```
+cd Generator; swift run; cd ..
+```
+
 ## Aren't there already packages like this?
 
 Yep! But for one reason or another, they didn't fulfil my needs (as of 2021/11/05).
