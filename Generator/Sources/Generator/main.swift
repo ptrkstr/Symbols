@@ -38,6 +38,45 @@ private struct Generator {
         var lines = ""
         var tests = ""
         var lineCounter = 0
+        
+        func persistExtensionAndTest() throws {
+            do {
+                let string =
+                """
+                \(header())
+                
+                public extension String.Symbols {\n\(lines)}
+                """
+                
+                try persist(string, directory: sourceDirectory, filename: "Symbols+\(lineCounter).swift")
+                
+                lines = ""
+            }
+            
+            do {
+                let string =
+                """
+                \(header())
+                
+                import XCTest
+                @testable import Symbols
+                
+                #if os(macOS)
+                
+                final class Symbols_\(lineCounter)_Tests: XCTestCase {
+                    
+                    @available(macOS 11.3, *)
+                    func test() throws {\n\(tests)    }
+                }
+                
+                #endif
+                """
+                
+                try persist(string, directory: testDirectory,  filename: "Symbols+\(lineCounter)_Tests.swift")
+                
+                tests = ""
+            }
+        }
                 
         for symbol in symbols {
             lineCounter += 1
@@ -55,44 +94,11 @@ private struct Generator {
             }
             
             if lineCounter % 200 == 0 {
-                do {
-                    let string =
-                    """
-                    \(header())
-                    
-                    public extension String.Symbols {\n\(lines)}
-                    """
-                    
-                    try persist(string, directory: sourceDirectory, filename: "Symbols+\(lineCounter).swift")
-                    
-                    lines = ""
-                }
-                
-                do {
-                    let string =
-                    """
-                    \(header())
-                    
-                    import XCTest
-                    @testable import Symbols
-                    
-                    #if os(macOS)
-                    
-                    final class Symbols_\(lineCounter)_Tests: XCTestCase {
-                        
-                        @available(macOS 11.3, *)
-                        func test() throws {\n\(tests)    }
-                    }
-                    
-                    #endif
-                    """
-                    
-                    try persist(string, directory: testDirectory,  filename: "Symbols+\(lineCounter)_Tests.swift")
-                    
-                    tests = ""
-                }
+                try persistExtensionAndTest()
             }
         }
+        
+        try persistExtensionAndTest()
     }
     
     private func persist(_ string: String, directory: URL, filename: String) throws {
