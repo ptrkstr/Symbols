@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,7 @@ final class Symbols_1200_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.chevronCompactDown, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.chevronCompactLeft, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.chevronCompactRight, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.chevronCompactUp, accessibilityDescription: nil))
@@ -306,7 +307,6 @@ final class Symbols_1200_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.deleteRight, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.deleteRightFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.deskclock, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.deskclockFill, accessibilityDescription: nil))
     }
 }
 

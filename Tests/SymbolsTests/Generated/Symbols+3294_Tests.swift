@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -7,10 +7,23 @@ import XCTest
 
 #if os(macOS)
 
-final class Symbols_3283_Tests: XCTestCase {
+final class Symbols_3294_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndStars, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndStarsInverse, accessibilityDescription: nil))
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.watchfaceApplewatchCase, accessibilityDescription: nil))
+        }
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Backward, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3BackwardCircle, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3BackwardCircleFill, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Forward, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3ForwardCircle, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3ForwardCircleFill, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Left, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3LeftCircle, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3LeftCircleFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Right, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3RightCircle, accessibilityDescription: nil))

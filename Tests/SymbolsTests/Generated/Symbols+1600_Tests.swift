@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,7 @@ final class Symbols_1600_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.externaldriveBadgeWifi, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.externaldriveBadgeXmark, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.externaldriveConnectedToLineBelow, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.externaldriveConnectedToLineBelowFill, accessibilityDescription: nil))
@@ -316,7 +317,6 @@ final class Symbols_1600_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greaterthanCircleFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greaterthanSquare, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greaterthanSquareFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greetingcard, accessibilityDescription: nil))
     }
 }
 

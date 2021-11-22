@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var boltSlashCircleFill: String { "bolt.slash.circle.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var boltSlashFill: String { "bolt.slash.fill" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var boltSquare: String { "bolt.square" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var boltSquareFill: String { "bolt.square.fill" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var chevronBackwardCircleFill: String { "chevron.backward.circle.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var chevronBackwardSquare: String { "chevron.backward.square" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var chevronBackwardSquareFill: String { "chevron.backward.square.fill" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var chevronCompactDown: String { "chevron.compact.down" }
 }

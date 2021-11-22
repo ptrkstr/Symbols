@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,15 @@ final class Symbols_3200_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.swift, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.switch2, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tCircle, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tCircleFill, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tSquare, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tSquareFill, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecells, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecellsBadgeEllipsis, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecellsFill, accessibilityDescription: nil))
         if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecellsFillBadgeEllipsis, accessibilityDescription: nil))
         }
@@ -70,8 +79,18 @@ final class Symbols_3200_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textBubbleFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textInsert, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustify, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyleft, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyright, accessibilityDescription: nil))
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyLeading, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyLeft, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyRight, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textJustifyTrailing, accessibilityDescription: nil))
+        }
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textMagnifyingglass, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textQuote, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.textRedaction, accessibilityDescription: nil))
@@ -286,19 +305,6 @@ final class Symbols_3200_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.walletPassFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndRays, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndRaysInverse, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndStars, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wandAndStarsInverse, accessibilityDescription: nil))
-        if #available(macOS 12.0, *) {
-            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.watchfaceApplewatchCase, accessibilityDescription: nil))
-        }
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Backward, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3BackwardCircle, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3BackwardCircleFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Forward, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3ForwardCircle, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3ForwardCircleFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3Left, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.wave3LeftCircle, accessibilityDescription: nil))
     }
 }
 

@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -273,6 +273,9 @@ final class Symbols_800_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltHorizontalIcloud, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltHorizontalIcloudFill, accessibilityDescription: nil))
         if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltRingClosed, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltShield, accessibilityDescription: nil))
         }
         if #available(macOS 12.0, *) {
@@ -280,7 +283,6 @@ final class Symbols_800_Tests: XCTestCase {
         }
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltSlash, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltSlashCircle, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.boltSlashCircleFill, accessibilityDescription: nil))
     }
 }
 

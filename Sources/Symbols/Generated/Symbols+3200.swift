@@ -1,8 +1,17 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var swift: String { "swift" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var switch2: String { "switch.2" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tCircle: String { "t.circle" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tCircleFill: String { "t.circle.fill" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tSquare: String { "t.square" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tSquareFill: String { "t.square.fill" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecells: String { "tablecells" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecellsBadgeEllipsis: String { "tablecells.badge.ellipsis" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecellsFill: String { "tablecells.fill" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var tablecellsFillBadgeEllipsis: String { "tablecells.fill.badge.ellipsis" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tag: String { "tag" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tagCircle: String { "tag.circle" }
@@ -46,8 +55,10 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textBubbleFill: String { "text.bubble.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textInsert: String { "text.insert" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textJustify: String { "text.justify" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textJustifyleft: String { "text.justifyleft" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textJustifyright: String { "text.justifyright" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var textJustifyLeading: String { "text.justify.leading" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var textJustifyLeft: String { "text.justify.left" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var textJustifyRight: String { "text.justify.right" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var textJustifyTrailing: String { "text.justify.trailing" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var textMagnifyingglass: String { "text.magnifyingglass" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var textQuote: String { "text.quote" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var textRedaction: String { "text.redaction" }
@@ -192,15 +203,4 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var walletPassFill: String { "wallet.pass.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndRays: String { "wand.and.rays" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndRaysInverse: String { "wand.and.rays.inverse" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndStars: String { "wand.and.stars" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndStarsInverse: String { "wand.and.stars.inverse" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var watchfaceApplewatchCase: String { "watchface.applewatch.case" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Backward: String { "wave.3.backward" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3BackwardCircle: String { "wave.3.backward.circle" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3BackwardCircleFill: String { "wave.3.backward.circle.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Forward: String { "wave.3.forward" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3ForwardCircle: String { "wave.3.forward.circle" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3ForwardCircleFill: String { "wave.3.forward.circle.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Left: String { "wave.3.left" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3LeftCircle: String { "wave.3.left.circle" }
 }

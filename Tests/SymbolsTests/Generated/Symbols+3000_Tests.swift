@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,17 @@ final class Symbols_3000_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.snowflakeCircle, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.snowflakeCircleFill, accessibilityDescription: nil))
+        }
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sparkle, accessibilityDescription: nil))
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sparkleMagnifyingglass, accessibilityDescription: nil))
+        }
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sparkles, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sparklesRectangleStack, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sparklesRectangleStackFill, accessibilityDescription: nil))
         if #available(macOS 12.0, *) {
@@ -60,6 +71,18 @@ final class Symbols_3000_Tests: XCTestCase {
         }
         if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square2Stack3dTopFilled, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square3Layers3dDownBackward, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square3Layers3dDownForward, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square3Layers3dDownLeft, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square3Layers3dDownRight, accessibilityDescription: nil))
         }
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.square3Stack3d, accessibilityDescription: nil))
         if #available(macOS 12.0, *) {
@@ -306,15 +329,6 @@ final class Symbols_3000_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sunriseFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sunset, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.sunsetFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.swift, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.switch2, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tCircle, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tCircleFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tSquare, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tSquareFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecells, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecellsBadgeEllipsis, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.tablecellsFill, accessibilityDescription: nil))
     }
 }
 

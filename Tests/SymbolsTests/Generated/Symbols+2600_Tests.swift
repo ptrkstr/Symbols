@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,13 @@ final class Symbols_2600_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playSquareFill, accessibilityDescription: nil))
+        }
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playTv, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playTvFill, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playpause, accessibilityDescription: nil))
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playpauseFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.plus, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.plusApp, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.plusAppFill, accessibilityDescription: nil))
@@ -351,17 +358,6 @@ final class Symbols_2600_Tests: XCTestCase {
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortrait, accessibilityDescription: nil))
         if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitAndArrowRight, accessibilityDescription: nil))
-        }
-        if #available(macOS 12.0, *) {
-            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitAndArrowRightFill, accessibilityDescription: nil))
-        }
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitArrowtriangle2Inward, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitArrowtriangle2Outward, accessibilityDescription: nil))
-        if #available(macOS 12.0, *) {
-            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitBottomhalfFilled, accessibilityDescription: nil))
-        }
-        if #available(macOS 12.0, *) {
-            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.rectanglePortraitBottomhalfInsetFilled, accessibilityDescription: nil))
         }
     }
 }

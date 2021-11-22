@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var greetingcard: String { "greetingcard" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var greetingcardFill: String { "greetingcard.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var grid: String { "grid" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var gridCircle: String { "grid.circle" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var iphoneSmartbatterycaseGen1: String { "iphone.smartbatterycase.gen1" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var iphoneSmartbatterycaseGen2: String { "iphone.smartbatterycase.gen2" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var ipod: String { "ipod" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var ipodshuffleGen1: String { "ipodshuffle.gen1" }
 }

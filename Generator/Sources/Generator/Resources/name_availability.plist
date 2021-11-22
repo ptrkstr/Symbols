@@ -1696,6 +1696,8 @@
 		<string>2019</string>
 		<key>bolt.horizontal.icloud.fill</key>
 		<string>2019</string>
+		<key>bolt.ring.closed</key>
+		<string>2021.1</string>
 		<key>bolt.shield</key>
 		<string>2021</string>
 		<key>bolt.shield.fill</key>
@@ -5262,10 +5264,18 @@
 		<string>2021</string>
 		<key>platter.bottom.applewatch.case</key>
 		<string>2021</string>
+		<key>platter.filled.bottom.and.arrow.down.iphone</key>
+		<string>2021.1</string>
 		<key>platter.filled.bottom.applewatch.case</key>
 		<string>2021</string>
+		<key>platter.filled.bottom.iphone</key>
+		<string>2021.1</string>
+		<key>platter.filled.top.and.arrow.up.iphone</key>
+		<string>2021.1</string>
 		<key>platter.filled.top.applewatch.case</key>
 		<string>2021</string>
+		<key>platter.filled.top.iphone</key>
+		<string>2021.1</string>
 		<key>platter.top.applewatch.case</key>
 		<string>2021</string>
 		<key>play</key>
@@ -6366,6 +6376,14 @@
 		<string>2020</string>
 		<key>square.2.stack.3d.top.filled</key>
 		<string>2021</string>
+		<key>square.3.layers.3d.down.backward</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.forward</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.left</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.right</key>
+		<string>2021.1</string>
 		<key>square.3.stack.3d</key>
 		<string>2020</string>
 		<key>square.3.stack.3d.bottom.fill</key>
@@ -6892,6 +6910,14 @@
 		<string>2019</string>
 		<key>text.justify</key>
 		<string>2019</string>
+		<key>text.justify.leading</key>
+		<string>2021.1</string>
+		<key>text.justify.left</key>
+		<string>2021.1</string>
+		<key>text.justify.right</key>
+		<string>2021.1</string>
+		<key>text.justify.trailing</key>
+		<string>2021.1</string>
 		<key>text.justifyleft</key>
 		<string>2019</string>
 		<key>text.justifyright</key>
@@ -7547,6 +7573,17 @@
 			<string>15.0</string>
 			<key>watchOS</key>
 			<string>8.0</string>
+		</dict>
+		<key>2021.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>15.1</string>
+			<key>macOS</key>
+			<string>12.0</string>
+			<key>tvOS</key>
+			<string>15.1</string>
+			<key>watchOS</key>
+			<string>8.1</string>
 		</dict>
 	</dict>
 </dict>

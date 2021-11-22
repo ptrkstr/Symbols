@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,7 @@ final class Symbols_2400_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.paintpaletteFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.pano, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.panoFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.paperclip, accessibilityDescription: nil))
@@ -303,10 +304,22 @@ final class Symbols_2400_Tests: XCTestCase {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterBottomApplewatchCase, accessibilityDescription: nil))
         }
         if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledBottomAndArrowDownIphone, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledBottomApplewatchCase, accessibilityDescription: nil))
         }
         if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledBottomIphone, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledTopAndArrowUpIphone, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledTopApplewatchCase, accessibilityDescription: nil))
+        }
+        if #available(macOS 12.0, *) {
+            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterFilledTopIphone, accessibilityDescription: nil))
         }
         if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.platterTopApplewatchCase, accessibilityDescription: nil))
@@ -334,13 +347,6 @@ final class Symbols_2400_Tests: XCTestCase {
         if #available(macOS 12.0, *) {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playSquare, accessibilityDescription: nil))
         }
-        if #available(macOS 12.0, *) {
-            XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playSquareFill, accessibilityDescription: nil))
-        }
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playTv, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playTvFill, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playpause, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.playpauseFill, accessibilityDescription: nil))
     }
 }
 

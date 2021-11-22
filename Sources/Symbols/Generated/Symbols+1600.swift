@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgeWifi: String { "externaldrive.badge.wifi" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgeXmark: String { "externaldrive.badge.xmark" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveConnectedToLineBelow: String { "externaldrive.connected.to.line.below" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveConnectedToLineBelowFill: String { "externaldrive.connected.to.line.below.fill" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var greaterthanCircleFill: String { "greaterthan.circle.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var greaterthanSquare: String { "greaterthan.square" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var greaterthanSquareFill: String { "greaterthan.square.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var greetingcard: String { "greetingcard" }
 }

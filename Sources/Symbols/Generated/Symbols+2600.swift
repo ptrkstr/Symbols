@@ -1,8 +1,13 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var playSquareFill: String { "play.square.fill" }
+    @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) static var playTv: String { "play.tv" }
+    @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) static var playTvFill: String { "play.tv.fill" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var playpause: String { "playpause" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var playpauseFill: String { "playpause.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var plus: String { "plus" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var plusApp: String { "plus.app" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var plusAppFill: String { "plus.app.fill" }
@@ -198,9 +203,4 @@ public extension String.Symbols {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectangleOnRectangleSquareFill: String { "rectangle.on.rectangle.square.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var rectanglePortrait: String { "rectangle.portrait" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitAndArrowRight: String { "rectangle.portrait.and.arrow.right" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitAndArrowRightFill: String { "rectangle.portrait.and.arrow.right.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var rectanglePortraitArrowtriangle2Inward: String { "rectangle.portrait.arrowtriangle.2.inward" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var rectanglePortraitArrowtriangle2Outward: String { "rectangle.portrait.arrowtriangle.2.outward" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomhalfFilled: String { "rectangle.portrait.bottomhalf.filled" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomhalfInsetFilled: String { "rectangle.portrait.bottomhalf.inset.filled" }
 }

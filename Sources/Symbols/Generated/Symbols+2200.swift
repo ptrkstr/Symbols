@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var loupe: String { "loupe" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var ltRectangleRoundedtop: String { "lt.rectangle.roundedtop" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var ltRectangleRoundedtopFill: String { "lt.rectangle.roundedtop.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var lungs: String { "lungs" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var paintbrushPointed: String { "paintbrush.pointed" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var paintbrushPointedFill: String { "paintbrush.pointed.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var paintpalette: String { "paintpalette" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var paintpaletteFill: String { "paintpalette.fill" }
 }

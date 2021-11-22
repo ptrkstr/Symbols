@@ -1,8 +1,19 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndStars: String { "wand.and.stars" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var wandAndStarsInverse: String { "wand.and.stars.inverse" }
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var watchfaceApplewatchCase: String { "watchface.applewatch.case" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Backward: String { "wave.3.backward" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3BackwardCircle: String { "wave.3.backward.circle" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3BackwardCircleFill: String { "wave.3.backward.circle.fill" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Forward: String { "wave.3.forward" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3ForwardCircle: String { "wave.3.forward.circle" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3ForwardCircleFill: String { "wave.3.forward.circle.fill" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Left: String { "wave.3.left" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3LeftCircle: String { "wave.3.left.circle" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3LeftCircleFill: String { "wave.3.left.circle.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3Right: String { "wave.3.right" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var wave3RightCircle: String { "wave.3.right.circle" }

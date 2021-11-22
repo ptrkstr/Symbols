@@ -1,8 +1,13 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitAndArrowRightFill: String { "rectangle.portrait.and.arrow.right.fill" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var rectanglePortraitArrowtriangle2Inward: String { "rectangle.portrait.arrowtriangle.2.inward" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var rectanglePortraitArrowtriangle2Outward: String { "rectangle.portrait.arrowtriangle.2.outward" }
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomhalfFilled: String { "rectangle.portrait.bottomhalf.filled" }
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomhalfInsetFilled: String { "rectangle.portrait.bottomhalf.inset.filled" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomleadingInsetFilled: String { "rectangle.portrait.bottomleading.inset.filled" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomleftInsetFilled: String { "rectangle.portrait.bottomleft.inset.filled" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var rectanglePortraitBottomrightInsetFilled: String { "rectangle.portrait.bottomright.inset.filled" }
@@ -198,9 +203,4 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var smoke: String { "smoke" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var smokeFill: String { "smoke.fill" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var snowflake: String { "snowflake" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var snowflakeCircle: String { "snowflake.circle" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var snowflakeCircleFill: String { "snowflake.circle.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var sparkle: String { "sparkle" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var sparkleMagnifyingglass: String { "sparkle.magnifyingglass" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var sparkles: String { "sparkles" }
 }

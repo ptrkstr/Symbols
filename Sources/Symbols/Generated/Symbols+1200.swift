@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var chevronCompactDown: String { "chevron.compact.down" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var chevronCompactLeft: String { "chevron.compact.left" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var chevronCompactRight: String { "chevron.compact.right" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var chevronCompactUp: String { "chevron.compact.up" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var deleteRight: String { "delete.right" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var deleteRightFill: String { "delete.right.fill" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var deskclock: String { "deskclock" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var deskclockFill: String { "deskclock.fill" }
 }

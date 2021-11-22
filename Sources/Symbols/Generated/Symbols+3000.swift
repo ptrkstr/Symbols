@@ -1,8 +1,13 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var snowflakeCircle: String { "snowflake.circle" }
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var snowflakeCircleFill: String { "snowflake.circle.fill" }
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var sparkle: String { "sparkle" }
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var sparkleMagnifyingglass: String { "sparkle.magnifyingglass" }
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var sparkles: String { "sparkles" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var sparklesRectangleStack: String { "sparkles.rectangle.stack" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var sparklesRectangleStackFill: String { "sparkles.rectangle.stack.fill" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var sparklesSquareFilledOnSquare: String { "sparkles.square.filled.on.square" }
@@ -35,6 +40,10 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var square2Stack3d: String { "square.2.stack.3d" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var square2Stack3dBottomFilled: String { "square.2.stack.3d.bottom.filled" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var square2Stack3dTopFilled: String { "square.2.stack.3d.top.filled" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var square3Layers3dDownBackward: String { "square.3.layers.3d.down.backward" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var square3Layers3dDownForward: String { "square.3.layers.3d.down.forward" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var square3Layers3dDownLeft: String { "square.3.layers.3d.down.left" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var square3Layers3dDownRight: String { "square.3.layers.3d.down.right" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var square3Stack3d: String { "square.3.stack.3d" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var square3Stack3dBottomFilled: String { "square.3.stack.3d.bottom.filled" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var square3Stack3dMiddleFilled: String { "square.3.stack.3d.middle.filled" }
@@ -194,13 +203,4 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var sunriseFill: String { "sunrise.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var sunset: String { "sunset" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var sunsetFill: String { "sunset.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var swift: String { "swift" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var switch2: String { "switch.2" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tCircle: String { "t.circle" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tCircleFill: String { "t.circle.fill" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tSquare: String { "t.square" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var tSquareFill: String { "t.square.fill" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecells: String { "tablecells" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecellsBadgeEllipsis: String { "tablecells.badge.ellipsis" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var tablecellsFill: String { "tablecells.fill" }
 }

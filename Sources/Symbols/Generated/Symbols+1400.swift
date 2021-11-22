@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var deskclockFill: String { "deskclock.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var desktopcomputer: String { "desktopcomputer" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var desktopcomputerAndArrowDown: String { "desktopcomputer.and.arrow.down" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var desktopcomputerTrianglebadgeExclamationmark: String { "desktopcomputer.trianglebadge.exclamationmark" }
@@ -202,5 +203,4 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgePersonCrop: String { "externaldrive.badge.person.crop" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgePlus: String { "externaldrive.badge.plus" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgeTimemachine: String { "externaldrive.badge.timemachine" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var externaldriveBadgeWifi: String { "externaldrive.badge.wifi" }
 }

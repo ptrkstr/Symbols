@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -198,9 +198,9 @@ public extension String.Symbols {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var boltHorizontalFill: String { "bolt.horizontal.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var boltHorizontalIcloud: String { "bolt.horizontal.icloud" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var boltHorizontalIcloudFill: String { "bolt.horizontal.icloud.fill" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var boltRingClosed: String { "bolt.ring.closed" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var boltShield: String { "bolt.shield" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var boltShieldFill: String { "bolt.shield.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var boltSlash: String { "bolt.slash" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var boltSlashCircle: String { "bolt.slash.circle" }
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var boltSlashCircleFill: String { "bolt.slash.circle.fill" }
 }

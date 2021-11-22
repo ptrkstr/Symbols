@@ -23,7 +23,7 @@
 
 ## Features
 
-- 💫 Contains all SF Symbols - 1.0, 2.0, 2.1, 3.0.
+- 💫 Contains all SF Symbols - 1.0, 2.0, 2.1, 3.0, 3.1
 - 🏠 Supports all platforms: 📱 iOS, 💻 macOS, 📺 tvOS, ⌚️ watchOS.
 - 💯 100% Test Coverage, **every** SF Symbol String extension is tested.
 - 👷 Easy to maintain for future SF Symbol releases (see **Maintenance** section).

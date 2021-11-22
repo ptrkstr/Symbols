@@ -1,8 +1,9 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
 public extension String.Symbols {
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var paintpaletteFill: String { "paintpalette.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var pano: String { "pano" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var panoFill: String { "pano.fill" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var paperclip: String { "paperclip" }
@@ -182,8 +183,12 @@ public extension String.Symbols {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platter2FilledIphone: String { "platter.2.filled.iphone" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platter2FilledIphoneLandscape: String { "platter.2.filled.iphone.landscape" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platterBottomApplewatchCase: String { "platter.bottom.applewatch.case" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var platterFilledBottomAndArrowDownIphone: String { "platter.filled.bottom.and.arrow.down.iphone" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platterFilledBottomApplewatchCase: String { "platter.filled.bottom.applewatch.case" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var platterFilledBottomIphone: String { "platter.filled.bottom.iphone" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var platterFilledTopAndArrowUpIphone: String { "platter.filled.top.and.arrow.up.iphone" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platterFilledTopApplewatchCase: String { "platter.filled.top.applewatch.case" }
+    @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) static var platterFilledTopIphone: String { "platter.filled.top.iphone" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var platterTopApplewatchCase: String { "platter.top.applewatch.case" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var play: String { "play" }
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var playCircle: String { "play.circle" }
@@ -198,9 +203,4 @@ public extension String.Symbols {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var playSlash: String { "play.slash" }
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) static var playSlashFill: String { "play.slash.fill" }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var playSquare: String { "play.square" }
-    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) static var playSquareFill: String { "play.square.fill" }
-    @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) static var playTv: String { "play.tv" }
-    @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) static var playTvFill: String { "play.tv.fill" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var playpause: String { "playpause" }
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) static var playpauseFill: String { "playpause.fill" }
 }

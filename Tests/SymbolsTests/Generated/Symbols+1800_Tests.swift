@@ -1,4 +1,4 @@
-// Generated on 2021-11-12 09:19:01 +0000
+// Generated on 2021-11-22 12:22:42 +0000
 // Manual modifications will be overwitten.
 // Files are split up as Xcode lags when reading 3000+ line files.
 
@@ -11,6 +11,7 @@ final class Symbols_1800_Tests: XCTestCase {
     
     @available(macOS 11.3, *)
     func test() throws {
+        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greetingcard, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.greetingcardFill, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.grid, accessibilityDescription: nil))
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.gridCircle, accessibilityDescription: nil))
@@ -320,7 +321,6 @@ final class Symbols_1800_Tests: XCTestCase {
             XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.iphoneSmartbatterycaseGen2, accessibilityDescription: nil))
         }
         XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.ipod, accessibilityDescription: nil))
-        XCTAssertNotNil(NSImage(systemSymbolName: String.Symbols.ipodshuffleGen1, accessibilityDescription: nil))
     }
 }
 
